@@ -1,0 +1,38 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+
+
+
+
+.container {
+    h1 {
+        background-color: lime;
+        color: $primary_color;
+        }
+    p   {
+    color: purple;
+        }
+    ul {
+        li  {
+            list-style: none;
+            color: $primary_color;
+            }
+        }   
+    
+}
+
+;
+
+@media (min-width: 764px){
+.container {
+    background-color: pink;
+    }
+}    
+    
+@media (min-width: 1024px){
+.container {
+    background-color: navy;
+    }
+}
+
