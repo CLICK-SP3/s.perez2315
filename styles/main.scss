@@ -9,8 +9,11 @@
     h1 {
         background-color: lime;
         color: $primary_color;
+        @include round-border ();
+
         }
     p   {
+        @include round-border ();
     color: purple;
         }
     ul {
