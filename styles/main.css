@@ -366,23 +366,25 @@ h2 {
   }
 }
 
-* {
+.container h1 {
+  font-family: "Bitter", serif;
+  background-color: none;
+  color: #000066;
+  border: 1px solid #414141;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container * {
   color: 0;
 }
 
-body {
+.container body {
   background-image: url(../assets/images/pattern_05.gif);
   background-repeat: repeat;
 }
 
-h1 {
-  font-family: "Bitter", serif;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-h6 {
+.container h6 {
   background-color: lime;
   color: #000066;
   border: 1px solid #414141;
@@ -390,23 +392,24 @@ h6 {
   padding: 10px;
 }
 
-p {
+.container p {
   color: #000066;
 }
 
-.landing1 {
+.container .landing1 {
   background-image: url(../assets/images/sp3_blu.png);
   width: 75%;
 }
 
-.landing2 {
+.container .landing2 {
   background-image: url(../assets/images/wordart4.png);
   width: 90%;
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
-.footer {
+.container .footer {
+  font-family: "Noto Sans", sans-serif;
   font-size: 11px;
   text-align: center;
   color: #464646;
