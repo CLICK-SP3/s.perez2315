@@ -354,61 +354,16 @@ h2 {
   font-size: 18px;
 }
 
-@media (min-width: 764px) {
-  .container {
-    background-color: pink;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    background-color: yellowgreen;
-  }
-}
-
-.container h1 {
-  font-family: "Bitter", serif;
-  background-color: none;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.container * {
-  color: 0;
-}
-
-.container body {
+body {
   background-image: url(../assets/images/pattern_05.gif);
   background-repeat: repeat;
 }
 
-.container h6 {
-  background-color: lime;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
+.copy {
+  color: green;
 }
 
-.container p {
-  color: #000066;
-}
-
-.container .landing1 {
-  background-image: url(../assets/images/sp3_blu.png);
-  width: 75%;
-}
-
-.container .landing2 {
-  background-image: url(../assets/images/wordart4.png);
-  width: 90%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.container .footer {
+.footer {
   font-family: "Noto Sans", sans-serif;
   font-size: 11px;
   text-align: center;
