@@ -1,68 +1,41 @@
 @import "./vendor/normalize";
 @import "./partials/colors";
 @import "./partials/mixins";
-@import "./partials/typography";
 
-@media (min-width: 764px){
-    .container {
-        background-color: pink;
-        }
-    }    
-        
-    @media (min-width: 1024px){
-    .container {
-        background-color: yellowgreen;
-        }
-    }
+
+
+
 .container {
     h1 {
-        font-family: $heading_primary_font;
-        background-color:none;
+        background-color: lime;
         color: $primary_color;
         @include round-border ();
+
         }
-
-*   {
-    color: red($color: #000000);
-	}
-
-body  {
-    background-image: url(../assets/images/pattern_05.gif);
-    background-repeat: repeat;
-    }
-
-
-h6 {
-    background-color: lime;
-    color: $primary_color;
-    @include round-border ();
-     }
-
-p   {
-    color: $primary_color;
+    p   {
+        @include round-border ();
+    color: purple;
         }
-    // ul {
-    //     li  {
-    //         list-style: none;
-    //         color: $primary_color;
-    //         }
-    //     }   
+    ul {
+        li  {
+            list-style: none;
+            color: $primary_color;
+            }
+        }   
     
-.landing1   {
-    background-image: url(../assets/images/sp3_blu.png);
-    width: 75%;
-    }
+}
 
+;
 
-.landing2   {
-    background-image: url(../assets/images/wordart4.png);
-    width: 90%;
-    align-content: center;
+@media (min-width: 764px){
+.container {
+    background-color: pink;
     }
-.footer {
-    font-family: $heading_secondary_font;
-    font-size: 11px;
-    text-align: center;
-    color: $dark_color;
+}    
+    
+@media (min-width: 1024px){
+.container {
+    background-color: navy;
     }
 }
+

@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Noto+Sans:400,400i&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -342,16 +341,24 @@ template {
   display: none;
 }
 
-h1 {
-  font-family: "Bitter", serif;
-  color: #000066;
-  font-size: 24px;
+.container h1 {
+  background-color: lime;
+  color: red;
+  border: 1px solid #414141;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-h2 {
-  font-family: "Noto Sans", sans-serif;
-  color: white;
-  font-size: 18px;
+.container p {
+  border: 1px solid #414141;
+  border-radius: 10px;
+  padding: 10px;
+  color: purple;
+}
+
+.container ul li {
+  list-style: none;
+  color: red;
 }
 
 @media (min-width: 764px) {
@@ -362,56 +369,7 @@ h2 {
 
 @media (min-width: 1024px) {
   .container {
-    background-color: yellowgreen;
+    background-color: navy;
   }
-}
-
-.container h1 {
-  font-family: "Bitter", serif;
-  background-color: none;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.container * {
-  color: 0;
-}
-
-.container body {
-  background-image: url(../assets/images/pattern_05.gif);
-  background-repeat: repeat;
-}
-
-.container h6 {
-  background-color: lime;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.container p {
-  color: #000066;
-}
-
-.container .landing1 {
-  background-image: url(../assets/images/sp3_blu.png);
-  width: 75%;
-}
-
-.container .landing2 {
-  background-image: url(../assets/images/wordart4.png);
-  width: 90%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.container .footer {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 11px;
-  text-align: center;
-  color: #464646;
 }
 /*# sourceMappingURL=main.css.map */
