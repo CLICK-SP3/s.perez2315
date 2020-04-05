@@ -354,64 +354,60 @@ h2 {
   font-size: 18px;
 }
 
-@media (min-width: 764px) {
-  .container {
-    background-color: pink;
-  }
+html, body {
+  background-image: url(../assets/images/pattern_05.gif);
+  background-repeat: repeat;
+  padding: 1em;
+  color: #414141;
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000066;
+}
+
+.footer {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-container {
+  padding: 2em;
+  margin: 1em 0;
+}
+
+.sidebar {
+  margin: 1em 0;
 }
 
 @media (min-width: 1024px) {
-  .container {
-    background-color: yellowgreen;
+  .main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-}
-
-.container h1 {
-  font-family: "Bitter", serif;
-  background-color: none;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.container * {
-  color: 0;
-}
-
-.container body {
-  background-image: url(../assets/images/pattern_05.gif);
-  background-repeat: repeat;
-}
-
-.container h6 {
-  background-color: lime;
-  color: #000066;
-  border: 1px solid #414141;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.container p {
-  color: #000066;
-}
-
-.container .landing1 {
-  background-image: url(../assets/images/sp3_blu.png);
-  width: 75%;
-}
-
-.container .landing2 {
-  background-image: url(../assets/images/wordart4.png);
-  width: 90%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.container .footer {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 11px;
-  text-align: center;
-  color: #464646;
+  .post {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .sidebar {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

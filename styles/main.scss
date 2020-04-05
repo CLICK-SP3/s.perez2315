@@ -1,68 +1,49 @@
-@import "./vendor/normalize";
-@import "./partials/colors";
-@import "./partials/mixins";
-@import "./partials/typography";
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
 
-@media (min-width: 764px){
-    .container {
-        background-color: pink;
-        }
-    }    
-        
-    @media (min-width: 1024px){
-    .container {
-        background-color: yellowgreen;
-        }
-    }
-.container {
-    h1 {
-        font-family: $heading_primary_font;
-        background-color:none;
-        color: $primary_color;
-        @include round-border ();
-        }
-
-*   {
-    color: red($color: #000000);
-	}
-
-body  {
+html, body {
     background-image: url(../assets/images/pattern_05.gif);
     background-repeat: repeat;
-    }
+    padding: 1em;
+    color: #414141;
+    height: 100%;
+  }
 
-
-h6 {
-    background-color: lime;
-    color: $primary_color;
-    @include round-border ();
-     }
-
-p   {
-    color: $primary_color;
+nav {
+        a   {
+            text-decoration: none;
+            color: $primary_color;
         }
-    // ul {
-    //     li  {
-    //         list-style: none;
-    //         color: $primary_color;
-    //         }
-    //     }   
-    
-.landing1   {
-    background-image: url(../assets/images/sp3_blu.png);
-    width: 75%;
     }
 
-
-.landing2   {
-    background-image: url(../assets/images/wordart4.png);
-    width: 90%;
-    align-content: center;
-    }
 .footer {
-    font-family: $heading_secondary_font;
-    font-size: 11px;
     text-align: center;
-    color: $dark_color;
+    }
+.list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    }
+.main-container {
+    padding: 2em;
+    margin: 1em 0;
+    }
+.sidebar {
+    margin: 1em 0;
+    }
+
+@media (min-width: 1024px) {
+     .main-container {
+        display: flex;
+        flex-direction: row;
+      }
+    .post   {
+        flex-basis: 50%;
+    }
+    .sidebar {
+        flex-basis: 40%;
     }
 }
