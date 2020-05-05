@@ -393,42 +393,10 @@ h1 {
 
 .post {
   width: 80%;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
-  -webkit-transition-property: width;
-  transition-property: width;
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-
-.post:hover {
-  width: 120%;
 }
 
 .sidebar {
   margin: 1em 0;
-  -webkit-animation: bakshi 7s infinite;
-          animation: bakshi 7s infinite;
-}
-
-.transition {
-  background-color: lime;
-  height: 100px;
-  width: 200px;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
-  -webkit-transition-property: width;
-  transition-property: width;
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-
-.transition:hover {
-  width: 400px;
 }
 
 @-webkit-keyframes bakshi {
