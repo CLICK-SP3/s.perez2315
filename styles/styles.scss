@@ -1,0 +1,32 @@
+// required for customization
+@import "../scss/functions";
+@import "../scss/variables";
+@import "../scss/mixins/";
+
+$theme-colors: (
+  "success": blue,
+);
+
+.bigcopy {
+  color: rgb(226, 49, 43) !important;
+  font-size: 4em !important;
+}
+
+
+.lgcolor  {
+  display: none;
+  color: blue; 
+  font-size: 1em;
+}
+
+
+
+
+#shift  {
+  color: blue; 
+  font-size: 1em;
+}
+
+
+// import at the end of our custom styles
+@import "../scss/bootstrap.scss";

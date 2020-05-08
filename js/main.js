@@ -6,8 +6,6 @@ $(document).ready(function () {
         setTimeout(function(){
             $('#shift').fadeIn('bigcopy');
         },5000)
-    
-    
 
     // setTimeout(function () {
     //     $('#title').addClass('red');
@@ -26,14 +24,4 @@ $(document).ready(function () {
 //     // $('#shift').addClass('bigcopy');
 //     }) 
 // });
-
-
-// .hide ()
-
-// .show()
-
-// .click(function()){
-
-// })
-    // $('#shift').addClass('bigcopy');
 
