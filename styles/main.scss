@@ -37,32 +37,13 @@ h1  {
     }
 .post   {
     width:80%; 
-    // transition-timing-function: ease-in;
-    // transition-property: width;
-    // transition-duration: 3s;
-    // transition-timing-function: ease-out;
-    //     &:hover {
-    //     width: 120%;
-    //     }
     }
 
 
 .sidebar {
     margin: 1em 0;
-    // animation: bakshi 7s infinite;
-    }
-// .transition  {
-//     background-color: lime;
-//     height: 100px;
-//     width:200px;
-//     transition-timing-function: ease-in;
-//     transition-property: width;
-//     transition-duration: 3s;
-//     transition-timing-function: ease-out;
-//     &:hover {
-//         width: 400px;
-//     }
-//     }
+        }
+
 
 @keyframes bakshi {
         0% {
