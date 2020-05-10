@@ -1,3 +1,76 @@
+/* @import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography'; */
+
+
+html, body {
+    background-image: url(../assets/images/pattern_05.gif);
+    background-repeat: repeat;
+    padding: 1em;
+    color: #414141;
+    height: 100%;
+  }
+
+/* nav {
+        a   {
+            text-decoration: none;
+            color: $primary_color;
+        }
+    } */
+h1  {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    }
+.list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    }
+.main-container {
+    padding: 2em;
+    margin: 1em 0;
+    }
+.post   {
+    width:80%; 
+    }
+
+
+.sidebar {
+    margin: 1em 0;
+        }
+
+
+/* @keyframes bakshi {
+        0% {
+          background: $primary_color;
+        }
+        50% {
+          background: yellow;
+          border-radius: 10%;
+        }
+        100% {
+            background: none;
+        }
+      }     */
+
+@media (min-width: 1024px) {
+     .main-container {
+        display: flex;
+        flex-direction: row;
+      }
+    .post   {
+        flex-basis: 50%;
+    }
+    .sidebar {
+        flex-basis: 40%;
+    }
+}
+
 .bigcopy {
   color: #e2312b !important;
   font-size: 4em !important;
